@@ -16,6 +16,9 @@
 body{
     background-color:hsl(120, 3%, 6%);
 }
+html{
+    scroll-behavior: smooth;
+}
 .icons img{
     display:inline-block;
     height: 30px;
