@@ -1,11 +1,4 @@
-@font-face{
-    font-family: 'lexend';
-    src:url(/fonts/Lexend/Lexend/static/Lexend-Regular.ttf);
-}
-@font-face {
-    font-family:'carattere';
-    src: url(/fonts/Carattere/Carattere-Regular.ttf);
-}
+
 body{
     margin: 0;
     padding: 0;
@@ -69,8 +62,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 .loading-wrap div,.loading-wrap img{
     background-color: #0A0A0A;
