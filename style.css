@@ -4,7 +4,7 @@ body{
     padding: 0;
     background-color: #0A0A0A;
     cursor:none;
-    transition:4s ease;
+    transition:10s ease;
 }
 .cursor-circle{
     width:30px;
@@ -54,7 +54,10 @@ body{
     border-bottom: 2px #4F7CEC solid;
     transition: 0.6s ease;
 }
-
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
 .loading-wrap{
     height: 100vh;
     width:100%;
@@ -93,6 +96,7 @@ body{
     position: relative;  
     display:flex;
     justify-content:space-evenly;
+    transition:4s ease;
 }
 
 .circle {
@@ -248,7 +252,7 @@ body{
     font-size: 2.5em;
     fill: #fff;
     position: relative;
-    top:-7px;
+    top:-10px;
     cursor: none;
 }
 

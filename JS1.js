@@ -185,12 +185,15 @@ const bodyEle=document.body;
 toHide.forEach((el)=> observer2.observe(el));
 
 window.onload= function(){
-    
+    circles.forEach(circle=>{
+        circle.style.display="none";
+    });
     setTimeout(function(){
         loadingWrap.style.display="none"; 
         circles.forEach(circle=>{
+            circle.style.display="block";
             circle.style.position="fixed";
         });
         bodyEle.style.backgroundColor="#0A0A0A";
-    },5990);
+    },3000);
 };
