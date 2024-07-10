@@ -386,7 +386,7 @@ body{
 }
 
 .cards-holder{
-    width:94%;
+    width:95%;
     height:fit-content;
     margin-top: 2%;
     margin-left: 3%;
@@ -398,7 +398,7 @@ body{
     backdrop-filter: blur(200px);
 }
 .card {
-    width: 310px;
+    width: 29.5%;
     height: 408px;
     border-radius: 20px;
     border: 2px solid #FFFFFF;
@@ -421,7 +421,7 @@ body{
 }
 .card-title {
     font-family: lexend;
-    font-size: 34px;
+    font-size: 32px;
     margin: 0 0 10px 0; 
     color: #FFFFFF;
 }
